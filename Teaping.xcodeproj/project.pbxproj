@@ -7,27 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A08F9752168FDDB00514EC1 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F9742168FDDB00514EC1 /* Global.swift */; };
+		5A302159216906C200AAD24D /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A302158216906C200AAD24D /* DateTextField.swift */; };
+		5A30215C2169150B00AAD24D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A30215B2169150B00AAD24D /* ViewModel.swift */; };
 		5AD33B012168B77B0036AF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD33B002168B77B0036AF68 /* AppDelegate.swift */; };
 		5AD33B032168B77B0036AF68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD33B022168B77B0036AF68 /* ViewController.swift */; };
 		5AD33B082168B77C0036AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD33B072168B77C0036AF68 /* Assets.xcassets */; };
 		5AD33B0B2168B77C0036AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD33B092168B77C0036AF68 /* LaunchScreen.storyboard */; };
 		5AEE98A32168E1F5006490BB /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE98A22168E1F5006490BB /* CurrencyField.swift */; };
 		5AEE98A52168E9D6006490BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEE98A42168E9D6006490BB /* Main.storyboard */; };
-		5AEE98A72168F055006490BB /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE98A62168F055006490BB /* AddCardViewController.swift */; };
 		D150FBBCB4F92A19608B3312 /* libPods-Teaping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8698A0B7FFE59557A96D6E /* libPods-Teaping.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		101A6EC81024035687CAA677 /* Pods-Teaping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teaping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teaping/Pods-Teaping.debug.xcconfig"; sourceTree = "<group>"; };
+		5A08F9742168FDDB00514EC1 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		5A302158216906C200AAD24D /* DateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
+		5A30215B2169150B00AAD24D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5AD33AFD2168B77B0036AF68 /* Teaping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teaping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD33B002168B77B0036AF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD33B022168B77B0036AF68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AD33B072168B77C0036AF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AD33B0A2168B77C0036AF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AD33B0C2168B77C0036AF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEE197D2168FFB500067200 /* Teaping-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teaping-Bridging-Header.h"; sourceTree = "<group>"; };
 		5AEE98A22168E1F5006490BB /* CurrencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
 		5AEE98A42168E9D6006490BB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		5AEE98A62168F055006490BB /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 		AEF0CC98644659A4A2EAFA8D /* Pods-Teaping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teaping.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teaping/Pods-Teaping.release.xcconfig"; sourceTree = "<group>"; };
 		FF8698A0B7FFE59557A96D6E /* libPods-Teaping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Teaping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +66,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5A30215A2169084400AAD24D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		5AD33AF42168B77B0036AF68 = {
 			isa = PBXGroup;
 			children = (
@@ -82,16 +94,28 @@
 		5AD33AFF2168B77B0036AF68 /* Teaping */ = {
 			isa = PBXGroup;
 			children = (
-				5AD33B002168B77B0036AF68 /* AppDelegate.swift */,
+				5A30215A2169084400AAD24D /* Storyboards */,
+				5AEE197E216900CF00067200 /* App */,
 				5AD33B022168B77B0036AF68 /* ViewController.swift */,
 				5AD33B072168B77C0036AF68 /* Assets.xcassets */,
 				5AD33B092168B77C0036AF68 /* LaunchScreen.storyboard */,
 				5AD33B0C2168B77C0036AF68 /* Info.plist */,
 				5AEE98A22168E1F5006490BB /* CurrencyField.swift */,
 				5AEE98A42168E9D6006490BB /* Main.storyboard */,
-				5AEE98A62168F055006490BB /* AddCardViewController.swift */,
+				5A08F9742168FDDB00514EC1 /* Global.swift */,
+				5AEE197D2168FFB500067200 /* Teaping-Bridging-Header.h */,
+				5A30215B2169150B00AAD24D /* ViewModel.swift */,
 			);
 			path = Teaping;
+			sourceTree = "<group>";
+		};
+		5AEE197E216900CF00067200 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5AD33B002168B77B0036AF68 /* AppDelegate.swift */,
+				5A302158216906C200AAD24D /* DateTextField.swift */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +129,7 @@
 				5AD33AF92168B77B0036AF68 /* Sources */,
 				5AD33AFA2168B77B0036AF68 /* Frameworks */,
 				5AD33AFB2168B77B0036AF68 /* Resources */,
+				BCCF6946B1E09A9517BEEFCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +205,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BCCF6946B1E09A9517BEEFCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Teaping/Pods-Teaping-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teaping/Pods-Teaping-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -187,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEE98A72168F055006490BB /* AddCardViewController.swift in Sources */,
+				5A302159216906C200AAD24D /* DateTextField.swift in Sources */,
 				5AD33B032168B77B0036AF68 /* ViewController.swift in Sources */,
 				5AEE98A32168E1F5006490BB /* CurrencyField.swift in Sources */,
+				5A08F9752168FDDB00514EC1 /* Global.swift in Sources */,
+				5A30215C2169150B00AAD24D /* ViewModel.swift in Sources */,
 				5AD33B012168B77B0036AF68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = teping.Teaping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Teaping/Teaping-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -357,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = teping.Teaping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Teaping/Teaping-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

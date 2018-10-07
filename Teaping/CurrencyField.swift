@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class CurrencyField: UITextField {
+
     var string: String { return text ?? "" }
     var decimal: Decimal {
         return string.digits.decimal /
@@ -18,8 +19,9 @@ class CurrencyField: UITextField {
     var decimalNumber: NSDecimalNumber { return decimal.number }
     var doubleValue: Double { return decimalNumber.doubleValue }
     var integerValue: Int { return decimalNumber.intValue   }
-    let maximum: Decimal = 999_999_999.99
+    let maximum: Decimal = 999_999_999
     private var lastValue: String?
+
     override func willMove(toSuperview newSuperview: UIView?) {
         // you can make it a fixed locale currency if needed
         // Formatter.currency.locale = Locale(identifier: "pt_BR") // or "en_US", "fr_FR", etc
@@ -49,7 +51,11 @@ extension NumberFormatter {
     }
 }
 extension Formatter {
-    static let currency = NumberFormatter(numberStyle: .currency)
+    static var currency: NumberFormatter {
+        let formatter = NumberFormatter(numberStyle: .currency)
+        formatter.maximumFractionDigits = 0
+        return formatter
+    }
 }
 extension String {
     var digits: [UInt8] {

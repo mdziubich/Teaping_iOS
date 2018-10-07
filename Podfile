@@ -2,5 +2,6 @@
 # platform :ios, '9.0'
 
 target 'Teaping' do
-    pod 'SnapKit', '~> 4.0.0'
+    pod 'Alamofire'
+    pod 'Stripe'
 end
